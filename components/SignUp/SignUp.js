@@ -8,17 +8,23 @@ const SignUp = ({ navigation }) => {
         <View>
             <TextInput 
                 placeholder="First Name"
+                style={styles.inputs}
             />
             <TextInput 
                 placeholder="Create a Username Name"
+                style={styles.inputs}
             />
             <TextInput 
                 placeholder="Create a password"
+                style={styles.inputs}
             />
             <TextInput 
                 placeholder="Confirm password"
+                style={styles.inputs}
             />
-            <Button title="Create Account" onPress={() => {''}}/>
+            <TouchableOpacity style={styles.signUpButton}>
+                <Text style={styles.signUpButtonText}>Sign Up</Text>
+            </TouchableOpacity>
         </View>
     );
 };
