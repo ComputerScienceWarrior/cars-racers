@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { View, TextInput, Button } from 'react-native';
+import { View, TextInput, Text, TouchableOpacity } from 'react-native';
+import styles from "./styles";
 
 const SignUp = ({ navigation }) => {
 
