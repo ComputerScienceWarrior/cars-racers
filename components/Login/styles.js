@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
     loginButton: {
         padding: 10,
         margin: 10,
-        backgroundColor: '#000000',
+        backgroundColor: 'green',
         borderRadius: 10,
     },
     loginButtonText: {
@@ -19,7 +19,16 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         fontWeight: 'bold',
         letterSpacing: 1
-    }
+    },
+    newUserLink: {
+        textAlign: 'center',
+        letterSpacing: 1,
+    },
+    linkText: {
+        color: 'blue',
+        fontStyle: 'italic',
+        fontWeight: 'bold'
+    },
 })
 
 export default styles;
