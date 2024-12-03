@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { View, TextInput, Button } from 'react-native';
+import { View, TextInput, Text, TouchableOpacity } from 'react-native';
+import styles from "./styles";
 
 const SignUp = ({ navigation }) => {
 
@@ -7,17 +8,23 @@ const SignUp = ({ navigation }) => {
         <View>
             <TextInput 
                 placeholder="First Name"
+                style={styles.inputs}
             />
             <TextInput 
                 placeholder="Create a Username Name"
+                style={styles.inputs}
             />
             <TextInput 
                 placeholder="Create a password"
+                style={styles.inputs}
             />
             <TextInput 
                 placeholder="Confirm password"
+                style={styles.inputs}
             />
-            <Button title="Create Account" onPress={() => {''}}/>
+            <TouchableOpacity style={styles.signUpButton}>
+                <Text style={styles.signUpButtonText}>Sign Up</Text>
+            </TouchableOpacity>
         </View>
     );
 };
