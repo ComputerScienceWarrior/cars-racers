@@ -25,7 +25,18 @@ const styles = StyleSheet.create({
         width: 200,
         height: 200,
         margin: 'auto',
-    }
+        marginBottom: 100,
+        marginTop: 100
+    },
+    newUserLink: {
+        textAlign: 'center',
+        letterSpacing: 1,
+    },
+    linkText: {
+        color: 'blue',
+        fontStyle: 'italic',
+        fontWeight: 'bold'
+    },
 });
 
 export default styles;
